@@ -19,3 +19,21 @@ An end-to-end data analysis and machine learning project on 87,000+ hotel bookin
 - Dataset: [Hotel Booking Demand — Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
 
 ## 📁 Repo Structure
+hotel-booking-cancellation-prediction/
+
+├── Hotel_booking.ipynb        # Full analysis + ML pipeline
+
+├── hotel_bookings_featured.csv  # Cleaned + engineered dataset
+
+└── README.md
+## 🚀 Run Locally
+```bash
+git clone https://github.com/tanvi31-git/hotel-booking-cancellation-prediction
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 👩‍💻 About
+Built by **Tanvi Adke** — B.Sc. CS Graduate | Aspiring Data Analyst & ML Engineer
+
+[LinkedIn](https://linkedin.com/in/tanvi-adke-791518350)
