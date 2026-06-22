@@ -21,9 +21,13 @@ An end-to-end data analysis and machine learning project on 87,000+ hotel bookin
 ## 📁 Repo Structure
 hotel-booking-cancellation-prediction/
 
-├── Hotel_booking.ipynb        # Full analysis + ML pipeline
+├── Hotel_booking.ipynb # Full analysis + ML pipeline
 
 ├── hotel_bookings_featured.csv  # Cleaned + engineered dataset
+
+├── app.py
+
+├── requirements.txt
 
 └── README.md
 ## 🚀 Run Locally
