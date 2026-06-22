@@ -40,7 +40,11 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("hotel_bookings_featured.csv")
+    import os
+    # works both locally and on Streamlit Cloud
+    base = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(base, "hotel_bookings_featured.csv")
+    df = pd.read_csv(path)
     month_order = ['January','February','March','April','May','June',
                    'July','August','September','October','November','December']
     df['arrival_date_month'] = pd.Categorical(df['arrival_date_month'], categories=month_order, ordered=True)
